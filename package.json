@@ -1,0 +1,17 @@
+{
+  "name": "mean-streets",
+  "description": "A demo MEAN application",
+  "version": "1.0.0",
+  "author": "Simon Nottage",
+  "dependencies": {
+    "bower": "^1.5.2",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2"
+  },
+  "scripts": {
+    "prestart": "npm install && node_modules/.bin/bower install && node_modules/.bin/gulp",
+    "start": "node app/server.js"
+  }
+}
